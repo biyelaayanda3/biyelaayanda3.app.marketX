@@ -1,0 +1,51 @@
+
+<ion-content [fullscreen]="true" style="background-color: rgb(202, 176, 138);">
+  
+  <div class="container">
+    <img src="../../assets/icon/signin.jpg">
+    <ion-text class="ion-text-center" style="color: grey;" >
+      <i><span style="font-size:35px; font-weight:bolder; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Create Account</span></i>
+    </ion-text>
+</div>
+
+<ion-card  >
+  <ion-card-content >
+    <ion-item fill="solid" color="#75511f" class="ion-margin-bottom">
+      <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+      <ion-input type="text"placeholder="Name" ></ion-input>
+    </ion-item>
+    <ion-item fill="solid" color="#75511f" class="ion-margin-bottom">
+      <ion-icon slot="start" name="person-circle"></ion-icon>
+      <ion-input type="text"placeholder="Last-Name" ></ion-input>
+    </ion-item>
+    <ion-item fill="solid" color="#75511f" class="ion-margin-bottom">
+      <ion-icon slot="start" name="mail"></ion-icon>
+      <ion-input type="email"placeholder="Email" ></ion-input>
+    </ion-item>
+    <ion-item fill="solid" color="#75511f" class="ion-margin-bottom">
+      <ion-icon slot="start" name="lock-open"></ion-icon>
+      <ion-input type="text"placeholder="Password" ></ion-input>
+    </ion-item>
+    <ion-item fill="solid" color="#75511f"ass="ion-margin-bottom" >
+      <ion-icon slot="start" name="eye-off" ></ion-icon>
+      <ion-input type="password" placeholder="Confirm-Password"></ion-input>
+    </ion-item>
+    <ion-grid>
+      <ion-row><ion-col size="12">
+          <!-- [disabled]="!credentials.valid" -->
+          <div class="ion-text-center">
+          <ion-button  color="white" expand="full" (click)="onCancel()">
+           <b>Sign-Up</b>
+          </ion-button>
+        </div>
+        </ion-col>
+      </ion-row>
+ 
+    </ion-grid>
+
+   </ion-card-content>
+
+</ion-card>
+</ion-content>
+
+

@@ -1,0 +1,7 @@
+{
+  "name": "marketX",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
