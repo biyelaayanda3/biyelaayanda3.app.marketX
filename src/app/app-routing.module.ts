@@ -16,16 +16,52 @@ const routes: Routes = [
     loadChildren: () => import('./Pages/login/login.module').then( m => m.LoginPageModule)
   },
   {
-    path: 'home',
-    loadChildren: () => import('./Pages/home/home.module').then( m => m.HomePageModule)
-  },
-  {
     path: 'signin',
     loadChildren: () => import('./Pages/signin/signin.module').then( m => m.SigninPageModule)
   },
   {
     path: 'reset-password',
     loadChildren: () => import('./Pages/reset-password/reset-password.module').then( m => m.ResetPasswordPageModule)
+  },
+  {
+    path: 'frontpage',
+    loadChildren: () => import('./Pages/frontpage/frontpage.module').then( m => m.FrontpagePageModule)
+  },
+  {
+    path: 'cart',
+    loadChildren: () => import('./Pages/cart/cart.module').then( m => m.CartPageModule)
+  },
+  {
+    path: 'buildmate',
+    loadChildren: () => import('./Pages/buildmate/buildmate.module').then( m => m.BuildmatePageModule)
+  },
+  {
+    path: 'doorwindows',
+    loadChildren: () => import('./Pages/doorwindows/doorwindows.module').then( m => m.DoorwindowsPageModule)
+  },
+  {
+    path: 'placeorders',
+    loadChildren: () => import('./Pages/placeorders/placeorders.module').then( m => m.PlaceordersPageModule)
+  },
+  {
+    path: 'promptemail',
+    loadChildren: () => import('./Pages/promptemail/promptemail.module').then( m => m.PromptemailPageModule)
+  },
+  {
+    path: 'rooftimber',
+    loadChildren: () => import('./Pages/rooftimber/rooftimber.module').then( m => m.RooftimberPageModule)
+  },
+  {
+    path: 'tilefloor',
+    loadChildren: () => import('./Pages/tilefloor/tilefloor.module').then( m => m.TilefloorPageModule)
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./Pages/profile/profile.module').then( m => m.ProfilePageModule)
+  },
+  {
+    path: 'about-us',
+    loadChildren: () => import('./Pages/about-us/about-us.module').then( m => m.AboutUsPageModule)
   },
 ];
 

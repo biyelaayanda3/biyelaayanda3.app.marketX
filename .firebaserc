@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "adsprojectandassessments": {
+      "hosting": {
+        "app": [
+          "adsprojectandassessments"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "adsprojectandassessments"
+  }
+}
