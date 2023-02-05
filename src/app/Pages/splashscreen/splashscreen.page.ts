@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SplashScreen } from '@capacitor/splash-screen';
 import { Router } from '@angular/router';
-import { of } from 'rxjs';
-import { delay } from 'rxjs/operators';
-import { LoginPage } from '../login/login.page';
-import { NavController } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-splashscreen',
